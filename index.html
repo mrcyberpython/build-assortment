@@ -1,0 +1,1524 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Услуги</title>
+  <link rel="stylesheet" href="./pages/index.css">
+  <link rel="stylesheet" href="./vendor/swiper-bundle-11.0.7.min.css" />
+</head>
+
+<body class="body services-body">
+
+  <header class="header">
+
+    <div class="header__container">
+      <div class="header-top">
+        <div class="header-top-inside">
+          <div class="header-top__left">
+            <div class="header-top__contact">
+              <svg width="19" height="19" viewBox="0 0 19 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <use href="sprite.svg#header-location" x="0" y="0"></use>
+              </svg>
+              <p class="header-top__city">г. Москва</p>
+            </div>
+          </div>
+
+          <ul class="header-top__links">
+            <li>
+              <a href="">О нас</a>
+            </li>
+            <li>
+              <a href="">Доставка и оплата</a>
+            </li>
+            <li>
+              <a href="">Гарантия и возврат</a>
+            </li>
+            <li>
+              <a href="">Вопрос и ответ</a>
+            </li>
+            <li>
+              <a href="">Контакты</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="header-top__right">
+          <div class="header-top__contacts">
+            <a href="tel:+74993025501" class="link header-top__contact">
+              <svg width="19" height="19" viewBox="0 0 19 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <use href="sprite.svg#header-contacts" x="0" y="0"></use>
+              </svg>
+              <p>+7 (499) 302-55-01</p>
+              <span>(c 8:00 до 19:00)</span>
+            </a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="header-down">
+      <div class="header-down-left">
+
+        <div class="header-mobile-catalog">
+          <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg"
+            class="header-catalog-mobile-off">
+            <use href="sprite.svg#header-catalog" x="0" y="0"></use>
+          </svg>
+          <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg"
+            style="display: none;" class="header-catalog-mobile-on">
+            <use href="sprite.svg#header-catalog-close" x="0" y="0"></use>
+          </svg>
+        </div>
+
+        <a href="/"><img src="./images/logo-header.svg" alt="" class="header-down__logo"></a>
+
+        <svg width="21" height="22" viewBox="0 0 21 22" fill="none" xmlns="http://www.w3.org/2000/svg"
+          class="header-mobile-search">
+          <use href="sprite.svg#header-search" x="0" y="0"></use>
+        </svg>
+
+        <a class="header-down__button">
+          <svg width="20" height="21" viewBox="0 0 20 21" fill="none" xmlns="http://www.w3.org/2000/svg"
+            class="header-catalog-off">
+            <use href="sprite.svg#header-catalog" x="0" y="0"></use>
+          </svg>
+
+          <svg width="20" height="21" viewBox="0 0 20 21" fill="none" xmlns="http://www.w3.org/2000/svg"
+            class="header-catalog-on" style="display: none;">
+            <use href="sprite.svg#header-catalog-close" x="0" y="0"></use>
+          </svg>
+          Каталог товаров</a>
+        <div class="header__group-input">
+          <input class="header__input" placeholder="Поиск товара" id="name">
+          <svg width="21" height="22" viewBox="0 0 21 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <use href="sprite.svg#header-search" x="0" y="0"></use>
+          </svg>
+        </div>
+        <div class="header-down__services">
+          <svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <use href="sprite.svg#header-services" x="0" y="0"></use>
+          </svg>
+          <p>Наши услуги</p>
+        </div>
+
+        <div class="header-down-right">
+          <ul>
+            <li>
+              <svg width="22" height="20" viewBox="0 0 22 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <use href="sprite.svg#header-person" x="0" y="0"></use>
+              </svg>
+            </li>
+            <li>
+              <svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <use href="sprite.svg#header-save" x="0" y="0"></use>
+              </svg>
+              <div class="circle circle-header">
+                <p class="number">12</p>
+              </div>
+            </li>
+            <li>
+              <svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <use href="sprite.svg#header-cart" x="0" y="0"></use>
+              </svg>
+              <div class="circle circle-header-price">
+                <p class="number">12</p>
+              </div>
+              <div class="header-down__price">
+                <span>Сумма:</span>
+                <p>80 565 ₽</p>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="header-down__links">
+      <a href="" class="link header-down__link">Пиломатериалы</a>
+      <a href="" class="link header-down__link">Изоляционные материалы</a>
+      <a href="" class="link header-down__link">Антисептики</a>
+      <a href="" class="link header-down__link">Листовые материалы</a>
+      <a href="" class="link header-down__link">Метизы</a>
+      <a href="" class="link header-down__link">% Распродажа</a>
+    </div>
+
+    <div class="menu menu-header">
+      <div class="menu__container">
+        <!-- <button class="menu__button-close button"></button> -->
+        <ul class="menu__links ul">
+          <li><a aria-current="page" class="link header__link menu__link active" href="/">Каталог</a></li>
+          <li><a class="link header__link menu__link" href="/movies">О нас</a></li>
+          <li><a class="link header__link menu__link" href="/saved-movies">Доставка и оплата</a></li>
+          <li><a class="link header__link menu__link" href="/saved-movies">Гарантия и возврат</a></li>
+          <li><a class="link header__link menu__link" href="/saved-movies">Вопрос и ответ</a></li>
+          <li><a class="link header__link menu__link" href="/saved-movies">Контакты</a></li>
+        </ul>
+
+        <ul class="menu__links-location">
+          <li>
+            <svg width="19" height="19" viewBox="0 0 19 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <use href="sprite.svg#header-location" x="0" y="0"></use>
+            </svg>
+            <p class="header-top__city">г. Москва</p>
+          </li>
+
+          <li>
+            <svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <use href="sprite.svg#footer-number" x="0" y="0"></use>
+            </svg>
+            <div class="footer__info-number">
+              <a href="tel:+74993025501" class="footer__info-phone">+7 (499) 302-55-01</a>
+              <span>Ежедневно с 8:00-19:00</span>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="menu menu-search">
+      <div class="menu__container">
+        <div class="menu-filter-container-up">
+          <div class="header__group-input">
+            <input class="header__input" placeholder="Поиск товара" id="name">
+            <svg width="21" height="22" viewBox="0 0 21 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <use href="sprite.svg#header-search" x="0" y="0"></use>
+            </svg>
+          </div>
+          <button class="menu__button-close"></button>
+        </div>
+
+        <div class="menu-filter-container-up">
+          <div class="container-search-left">
+            <h2>Искать в категориях</h2>
+            <ul class="catalog-filter-choose__values">
+              <li>
+                <p>Антисептированные пиломатериалы</p>
+                <span>31</span>
+              </li>
+              <li>
+                <p>Блок Хаус</p>
+                <span>15</span>
+              </li>
+              <li>
+                <p>Вагонка штиль</p>
+                <span>136</span>
+              </li>
+              <li>
+                <p>Доска четверть</p>
+                <span>85</span>
+              </li>
+              <li>
+                <p>Евровагонка</p>
+                <span>12</span>
+              </li>
+              <li>
+                <p>Европол</p>
+                <span>249</span>
+              </li>
+              <li>
+                <p>Имитация бруса</p>
+                <span>37</span>
+              </li>
+            </ul>
+
+            <h2>Популярные запросы</h2>
+            <ul class="catalog-filter-choose__values">
+              <li>
+                <p>Антисептированные пиломатериалы</p>
+              </li>
+              <li>
+                <p>Блок Хаус</p>
+              </li>
+              <li>
+                <p>Вагонка штиль</p>
+              </li>
+              <li>
+                <p>Доска четверть</p>
+              </li>
+              <li>
+                <p>Евровагонка</p>
+              </li>
+              <li>
+                <p>Европол</p>
+              </li>
+              <li>
+                <p>Имитация бруса</p>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="container-search-right">
+          <table class="table">
+            <tbody>
+              <tr class="alert" role="alert">
+                <td>
+                  <img src="./images/offers1.png" srcset="./images/offers1-x2.png 2x" alt="Картинка" loading="lazy">
+                </td>
+                <td>
+                  <div class="table-goods-container">
+                    <div class="table-goods-container-inside">
+                      <div>
+                        <p>Дополнительная услуга:</p>
+                      </div>
+                    </div>
+                    <p class="table-goods__desc">Брус строганный естественной влажности хвоя 95x195x6000 </p>
+                  </div>
+                </td>
+                <td>
+                  <div class="table-price-container">
+                    <del>1 250.20 ₽</del>
+                    <p>801.70 ₽ / м3</p>
+                  </div>
+                </td>
+
+              </tr>
+
+              <tr class="alert" role="alert">
+                <td>
+                  <img src="./images/offers1.png" srcset="./images/offers1-x2.png 2x" alt="Картинка" loading="lazy">
+                </td>
+                <td>
+                  <div class="table-goods-container">
+                    <div class="table-goods-container-inside">
+                      <div>
+                        <p>Дополнительная услуга:</p>
+                      </div>
+                    </div>
+                    <p class="table-goods__desc">Брус строганный естественной влажности хвоя 95x195x6000 </p>
+                  </div>
+                </td>
+                <td>
+                  <div class="table-price-container">
+                    <del>1 250.20 ₽</del>
+                    <p>801.70 ₽ / м3</p>
+                  </div>
+                </td>
+
+              </tr>
+
+              <tr class="alert" role="alert">
+                <td>
+                  <img src="./images/offers1.png" srcset="./images/offers1-x2.png 2x" alt="Картинка" loading="lazy">
+                </td>
+                <td>
+                  <div class="table-goods-container">
+                    <div class="table-goods-container-inside">
+                      <div>
+                        <p>Дополнительная услуга:</p>
+                      </div>
+                    </div>
+                    <p class="table-goods__desc">Брус строганный естественной влажности хвоя 95x195x6000 </p>
+                  </div>
+                </td>
+                <td>
+                  <div class="table-price-container">
+                    <del>1 250.20 ₽</del>
+                    <p>801.70 ₽ / м3</p>
+                  </div>
+                </td>
+
+              </tr>
+            </tbody>
+
+          </table>
+          <button class="button__search-more">Показать все 134 товаров</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="menu menu-catalog">
+      <div class="menu__container">
+
+        <div class="catalog-filter-choose__details">
+          <details open>
+            <summary>Евровагонка
+              <svg class="control-icon control-icon-expand" width="24" height="24" role="presentation">
+                <use href="sprite.svg#footer-more" x="0" y="0"></use>
+              </svg>
+              <svg class="control-icon control-icon-close" width="24" height="24" role="presentation"
+                style="transform: rotate(180deg);">
+                <use href="sprite.svg#footer-close" x="0" y="0"></use>
+              </svg>
+            </summary>
+            <a href="" class="footer__cards-link">Пиломатериалы</a>
+            <a href="" class="footer__cards-link">Антисептики</a>
+            <a href="" class="footer__cards-link">Изоляционные материалы</a>
+            <a href="" class="footer__cards-link">Листовые материалы</a>
+            <a href="" class="footer__cards-link">Метизы</a>
+          </details>
+        </div>
+
+        <div class="swiper mySwiper-megamenu">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <img src="./images/megamenu-bg.png" alt="Баннер" class="banner__background">
+              <div class="swiper-container">
+                <span>До 20 мая 2024</span>
+                <img src="./images/img-1.png" alt="" class="megamenu__images">
+                <h3>Скидка на все виды имитации бруса</h3>
+                <p>От заготовки, сушки, обработки древесины в цехах и до изготовления различного ассортимент.</p>
+              </div>
+            </div>
+
+            <div class="swiper-slide">
+              <img src="./images/megamenu-bg.png" alt="Баннер" class="banner__background">
+              <div class="swiper-container">
+                <span>До 20 мая 2024</span>
+                <img src="./images/img-1.png" alt="" class="megamenu__images">
+                <h3>Бонусы на все виды имитации бруса</h3>
+                <p>От заготовки, сушки, обработки древесины в цехах и до изготовления различного ассортимент.</p>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container-fluid">
+      <div class="container-fluid-inside">
+
+        <div>
+          <ul id="Company-MegaMenu" class="megamenu-tabs">
+            <li class="megamene__sale">
+              <a href="/" class="list-title">% Распродажа</a>
+            </li>
+            <li class="active" data-href="megamenu-one">
+              <a href="/" class="list-title">Пиломатериалы</a>
+              <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M13.2347 10.6221L9.33942 14.5174L8.71726 15.1125L7.5 13.8952L8.09511 13.2731L10.5296 10.8656L11.4056 9.99999L10.5296 9.13437L8.09511 6.7269L7.5 6.10474L8.71726 4.88748L9.33942 5.48259L13.2347 9.37783L13.8298 9.99998L13.2347 10.6221Z"
+                  fill="#A6ABAD" />
+              </svg>
+            </li>
+            <li data-href="megamenu-two">
+              <a href="/" class="list-title">Изоляционные материалы</a>
+              <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M13.2347 10.6221L9.33942 14.5174L8.71726 15.1125L7.5 13.8952L8.09511 13.2731L10.5296 10.8656L11.4056 9.99999L10.5296 9.13437L8.09511 6.7269L7.5 6.10474L8.71726 4.88748L9.33942 5.48259L13.2347 9.37783L13.8298 9.99998L13.2347 10.6221Z"
+                  fill="#A6ABAD" />
+              </svg>
+            </li>
+            <li data-href="megamenu-three">
+              <a href="/" class="list-title">Антисептики</a>
+              <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M13.2347 10.6221L9.33942 14.5174L8.71726 15.1125L7.5 13.8952L8.09511 13.2731L10.5296 10.8656L11.4056 9.99999L10.5296 9.13437L8.09511 6.7269L7.5 6.10474L8.71726 4.88748L9.33942 5.48259L13.2347 9.37783L13.8298 9.99998L13.2347 10.6221Z"
+                  fill="#A6ABAD" />
+              </svg>
+            </li>
+          </ul>
+        </div>
+
+        <div style="background: white; width: 100%">
+          <div id="megamenu-one" class="megamenu-tabcontent active">
+            <div class="row">
+              <ul class="megamenu__cards">
+                <li>
+                  <p>Евровагонка</p>
+                  <a href="#">
+                    Тестирование
+                  </a>
+
+                  <a href="#">
+                    Тестирование
+                  </a>
+
+                  <a href="#">
+                    Тестирование
+                  </a>
+
+                  <a href="#">
+                    Тестирование
+                  </a>
+
+                  <a href="#">
+                    Тестирование
+                  </a>
+
+                  <a href="#">
+                    Тестирование
+                  </a>
+                </li>
+              </ul>
+
+              <ul class="megamenu__cards">
+                <li>
+                  <p>Евровагонка</p>
+                  <a href="#">
+                    Тестирование
+                  </a>
+
+                  <a href="#">
+                    Тестирование
+                  </a>
+
+                  <a href="#">
+                    Тестирование
+                  </a>
+
+                  <a href="#">
+                    Тестирование
+                  </a>
+
+                  <a href="#">
+                    Тестирование
+                  </a>
+
+                  <a href="#">
+                    Тестирование
+                  </a>
+                </li>
+              </ul>
+
+              <ul class="megamenu__cards">
+                <li>
+                  <p>Евровагонка</p>
+                  <a href="#">
+                    Тестирование
+                  </a>
+
+                  <a href="#">
+                    Тестирование
+                  </a>
+
+                  <a href="#">
+                    Тестирование
+                  </a>
+
+                  <a href="#">
+                    Тестирование
+                  </a>
+
+                  <a href="#">
+                    Тестирование
+                  </a>
+
+                  <a href="#">
+                    Тестирование
+                  </a>
+                </li>
+              </ul>
+
+              <ul class="megamenu__cards">
+                <li>
+                  <p>Евровагонка</p>
+                  <a href="#">
+                    Тестирование
+                  </a>
+
+                  <a href="#">
+                    Тестирование
+                  </a>
+
+                  <a href="#">
+                    Тестирование
+                  </a>
+
+                  <a href="#">
+                    Тестирование
+                  </a>
+
+                  <a href="#">
+                    Тестирование
+                  </a>
+
+                  <a href="#">
+                    Тестирование
+                  </a>
+                </li>
+              </ul>
+
+              <ul class="megamenu__cards">
+                <li>
+                  <p>Евровагонка</p>
+                  <a href="#">
+                    Тестирование
+                  </a>
+
+                  <a href="#">
+                    Тестирование
+                  </a>
+
+                  <a href="#">
+                    Тестирование
+                  </a>
+
+                  <a href="#">
+                    Тестирование
+                  </a>
+
+                  <a href="#">
+                    Тестирование
+                  </a>
+
+                  <a href="#">
+                    Тестирование
+                  </a>
+                </li>
+              </ul>
+
+              <ul class="megamenu__cards">
+                <li>
+                  <p>Евровагонка</p>
+                  <a href="#">
+                    Тестирование
+                  </a>
+
+                  <a href="#">
+                    Тестирование
+                  </a>
+
+                  <a href="#">
+                    Тестирование
+                  </a>
+
+                  <a href="#">
+                    Тестирование
+                  </a>
+
+                  <a href="#">
+                    Тестирование
+                  </a>
+
+                  <a href="#">
+                    Тестирование
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <div id="megamenu-two" class="megamenu-tabcontent">
+            <div class="row">
+              <ul class="megamenu__cards">
+                <li>
+                  <p>Вагонка штиль</p>
+                  <a href="#">
+                    Тестирование
+                  </a>
+
+                  <a href="#">
+                    Тестирование
+                  </a>
+
+                  <a href="#">
+                    Тестирование
+                  </a>
+
+                  <a href="#">
+                    Тестирование
+                  </a>
+
+                  <a href="#">
+                    Тестирование
+                  </a>
+
+                  <a href="#">
+                    Тестирование
+                  </a>
+                </li>
+              </ul>
+
+              <ul class="megamenu__cards">
+                <li>
+                  <p>Вагонка штиль</p>
+                  <a href="#">
+                    Тестирование
+                  </a>
+
+                  <a href="#">
+                    Тестирование
+                  </a>
+
+                  <a href="#">
+                    Тестирование
+                  </a>
+
+                  <a href="#">
+                    Тестирование
+                  </a>
+
+                  <a href="#">
+                    Тестирование
+                  </a>
+
+                  <a href="#">
+                    Тестирование
+                  </a>
+                </li>
+              </ul>
+
+              <ul class="megamenu__cards">
+                <li>
+                  <p>Евровагонка</p>
+                  <a href="#">
+                    Тестирование
+                  </a>
+
+                  <a href="#">
+                    Тестирование
+                  </a>
+
+                  <a href="#">
+                    Тестирование
+                  </a>
+
+                  <a href="#">
+                    Тестирование
+                  </a>
+
+                  <a href="#">
+                    Тестирование
+                  </a>
+
+                  <a href="#">
+                    Тестирование
+                  </a>
+                </li>
+              </ul>
+
+              <ul class="megamenu__cards">
+                <li>
+                  <p>Евровагонка</p>
+                  <a href="#">
+                    Тестирование
+                  </a>
+
+                  <a href="#">
+                    Тестирование
+                  </a>
+
+                  <a href="#">
+                    Тестирование
+                  </a>
+
+                  <a href="#">
+                    Тестирование
+                  </a>
+
+                  <a href="#">
+                    Тестирование
+                  </a>
+
+                  <a href="#">
+                    Тестирование
+                  </a>
+                </li>
+              </ul>
+
+              <ul class="megamenu__cards">
+                <li>
+                  <p>Евровагонка</p>
+                  <a href="#">
+                    Тестирование
+                  </a>
+
+                  <a href="#">
+                    Тестирование
+                  </a>
+
+                  <a href="#">
+                    Тестирование
+                  </a>
+
+                  <a href="#">
+                    Тестирование
+                  </a>
+
+                  <a href="#">
+                    Тестирование
+                  </a>
+
+                  <a href="#">
+                    Тестирование
+                  </a>
+                </li>
+              </ul>
+
+              <ul class="megamenu__cards">
+                <li>
+                  <p>Евровагонка</p>
+                  <a href="#">
+                    Тестирование
+                  </a>
+
+                  <a href="#">
+                    Тестирование
+                  </a>
+
+                  <a href="#">
+                    Тестирование
+                  </a>
+
+                  <a href="#">
+                    Тестирование
+                  </a>
+
+                  <a href="#">
+                    Тестирование
+                  </a>
+
+                  <a href="#">
+                    Тестирование
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <div id="megamenu-three" class="megamenu-tabcontent">
+            <div class="row">
+              <ul class="megamenu__cards">
+                <li>
+                  <p>Имитация бруса</p>
+                  <a href="#">
+                    Тестирование
+                  </a>
+
+                  <a href="#">
+                    Тестирование
+                  </a>
+
+                  <a href="#">
+                    Тестирование
+                  </a>
+
+                  <a href="#">
+                    Тестирование
+                  </a>
+
+                  <a href="#">
+                    Тестирование
+                  </a>
+
+                  <a href="#">
+                    Тестирование
+                  </a>
+                </li>
+              </ul>
+
+              <ul class="megamenu__cards">
+                <li>
+                  <p>Имитация бруса</p>
+                  <a href="#">
+                    Тестирование
+                  </a>
+
+                  <a href="#">
+                    Тестирование
+                  </a>
+
+                  <a href="#">
+                    Тестирование
+                  </a>
+
+                  <a href="#">
+                    Тестирование
+                  </a>
+
+                  <a href="#">
+                    Тестирование
+                  </a>
+
+                  <a href="#">
+                    Тестирование
+                  </a>
+                </li>
+              </ul>
+
+              <ul class="megamenu__cards">
+                <li>
+                  <p>Евровагонка</p>
+                  <a href="#">
+                    Тестирование
+                  </a>
+
+                  <a href="#">
+                    Тестирование
+                  </a>
+
+                  <a href="#">
+                    Тестирование
+                  </a>
+
+                  <a href="#">
+                    Тестирование
+                  </a>
+
+                  <a href="#">
+                    Тестирование
+                  </a>
+
+                  <a href="#">
+                    Тестирование
+                  </a>
+                </li>
+              </ul>
+
+              <ul class="megamenu__cards">
+                <li>
+                  <p>Евровагонка</p>
+                  <a href="#">
+                    Тестирование
+                  </a>
+
+                  <a href="#">
+                    Тестирование
+                  </a>
+
+                  <a href="#">
+                    Тестирование
+                  </a>
+
+                  <a href="#">
+                    Тестирование
+                  </a>
+
+                  <a href="#">
+                    Тестирование
+                  </a>
+
+                  <a href="#">
+                    Тестирование
+                  </a>
+                </li>
+              </ul>
+
+              <ul class="megamenu__cards">
+                <li>
+                  <p>Евровагонка</p>
+                  <a href="#">
+                    Тестирование
+                  </a>
+
+                  <a href="#">
+                    Тестирование
+                  </a>
+
+                  <a href="#">
+                    Тестирование
+                  </a>
+
+                  <a href="#">
+                    Тестирование
+                  </a>
+
+                  <a href="#">
+                    Тестирование
+                  </a>
+
+                  <a href="#">
+                    Тестирование
+                  </a>
+                </li>
+              </ul>
+
+              <ul class="megamenu__cards">
+                <li>
+                  <p>Евровагонка</p>
+                  <a href="#">
+                    Тестирование
+                  </a>
+
+                  <a href="#">
+                    Тестирование
+                  </a>
+
+                  <a href="#">
+                    Тестирование
+                  </a>
+
+                  <a href="#">
+                    Тестирование
+                  </a>
+
+                  <a href="#">
+                    Тестирование
+                  </a>
+
+                  <a href="#">
+                    Тестирование
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="swiper mySwiper-megamenu">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <img src="./images/megamenu-bg.png" alt="Баннер" class="banner__background">
+              <div class="swiper-container">
+                <span>До 20 мая 2024</span>
+                <img src="./images/img-1.png" alt="" class="megamenu__images">
+                <h3>Скидка на все виды имитации бруса</h3>
+                <p>От заготовки, сушки, обработки древесины в цехах и до изготовления различного ассортимент.</p>
+              </div>
+            </div>
+
+            <div class="swiper-slide">
+              <img src="./images/megamenu-bg.png" alt="Баннер" class="banner__background">
+              <div class="swiper-container">
+                <span>До 20 мая 2024</span>
+                <img src="./images/img-1.png" alt="" class="megamenu__images">
+                <h3>Бонусы на все виды имитации бруса</h3>
+                <p>От заготовки, сушки, обработки древесины в цехах и до изготовления различного ассортимент.</p>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="container-fluid container-fluid-search">
+
+      <div style="background-color: var(--white); padding-bottom: 60px;">
+        <div class="container-fluid-inside">
+
+          <div class="container-search-left">
+            <h2>Искать в категориях</h2>
+            <ul class="catalog-filter-choose__values">
+              <li>
+                <p>Антисептированные пиломатериалы</p>
+                <span>31</span>
+              </li>
+              <li>
+                <p>Блок Хаус</p>
+                <span>15</span>
+              </li>
+              <li>
+                <p>Вагонка штиль</p>
+                <span>136</span>
+              </li>
+              <li>
+                <p>Доска четверть</p>
+                <span>85</span>
+              </li>
+              <li>
+                <p>Евровагонка</p>
+                <span>12</span>
+              </li>
+              <li>
+                <p>Европол</p>
+                <span>249</span>
+              </li>
+              <li>
+                <p>Имитация бруса</p>
+                <span>37</span>
+              </li>
+            </ul>
+
+            <h2>Популярные запросы</h2>
+            <ul class="catalog-filter-choose__values">
+              <li>
+                <p>Антисептированные пиломатериалы</p>
+              </li>
+              <li>
+                <p>Блок Хаус</p>
+              </li>
+              <li>
+                <p>Вагонка штиль</p>
+              </li>
+              <li>
+                <p>Доска четверть</p>
+              </li>
+              <li>
+                <p>Евровагонка</p>
+              </li>
+              <li>
+                <p>Европол</p>
+              </li>
+              <li>
+                <p>Имитация бруса</p>
+              </li>
+            </ul>
+          </div>
+
+          <div class="container-search-right">
+            <table class="table">
+              <tbody>
+                <tr class="alert" role="alert">
+                  <td>
+                    <img src="./images/offers1.png" srcset="./images/offers1-x2.png 2x" alt="Картинка" loading="lazy">
+                  </td>
+                  <td>
+                    <div class="table-goods-container">
+                      <div class="table-goods-container-inside">
+                        <div>
+                          <p>Дополнительная услуга:</p>
+                        </div>
+                      </div>
+                      <p class="table-goods__desc">Брус строганный естественной влажности хвоя 95x195x6000 </p>
+                    </div>
+                  </td>
+                  <td>
+                    <div class="table-price-container">
+                      <del>1 250.20 ₽</del>
+                      <p>801.70 ₽ / м3</p>
+                    </div>
+                  </td>
+
+                </tr>
+
+                <tr class="alert" role="alert">
+                  <td>
+                    <img src="./images/offers1.png" srcset="./images/offers1-x2.png 2x" alt="Картинка" loading="lazy">
+                  </td>
+                  <td>
+                    <div class="table-goods-container">
+                      <div class="table-goods-container-inside">
+                        <div>
+                          <p>Дополнительная услуга:</p>
+                        </div>
+                      </div>
+                      <p class="table-goods__desc">Брус строганный естественной влажности хвоя 95x195x6000 </p>
+                    </div>
+                  </td>
+                  <td>
+                    <div class="table-price-container">
+                      <del>1 250.20 ₽</del>
+                      <p>801.70 ₽ / м3</p>
+                    </div>
+                  </td>
+
+                </tr>
+
+                <tr class="alert" role="alert">
+                  <td>
+                    <img src="./images/offers1.png" srcset="./images/offers1-x2.png 2x" alt="Картинка" loading="lazy">
+                  </td>
+                  <td>
+                    <div class="table-goods-container">
+                      <div class="table-goods-container-inside">
+                        <div>
+                          <p>Дополнительная услуга:</p>
+                        </div>
+                      </div>
+                      <p class="table-goods__desc">Брус строганный естественной влажности хвоя 95x195x6000 </p>
+                    </div>
+                  </td>
+                  <td>
+                    <div class="table-price-container">
+                      <del>1 250.20 ₽</del>
+                      <p>801.70 ₽ / м3</p>
+                    </div>
+                  </td>
+
+                </tr>
+              </tbody>
+
+            </table>
+            <button class="button__search-more">Показать все 134 товаров</button>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main class="main">
+    <section class="services">
+      <div class="articles-container-up">
+        <h2 class="main-logo articles__logo">Наши услуги</h2>
+        <!-- <a href="#" class="articles-container-up-inside">
+          <p>Смотреть все</p>
+          <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path
+              d="M17.7382 10.6222L13.8431 14.5173L13.2209 15.1124L12.0037 13.8952L12.5988 13.273L15.0333 10.8656H1.66663V9.13447H15.0333L12.5988 6.72706L12.0037 6.10492L13.2209 4.8877L13.8431 5.48278L17.7382 9.37792L18.3333 10.0001L17.7382 10.6222Z"
+              fill="#30B45B" />
+          </svg>
+        </a> -->
+        <ul class="articles-container-up-breadcrumbs">
+          <li class="articles-container-up-breadcrumb services-breadcrumb">
+            <a href="./index.html" class="services-breadcrumb__link">
+              <svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M12.4444 7.77777L12.4688 13.2222H8.55556V9.33333H5.44444V13.2222H1.55556V7.77777H0V6.6111L7 0.777771L14 6.6111V7.77777H12.4444Z"
+                  fill="#878A8C" />
+              </svg>
+            </a>
+          </li>
+          <li class="articles-container-up-breadcrumb services-breadcrumb">
+            <a href="./services.html" class="services-breadcrumb__link">Наши услуги</a>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <ul class="services__list">
+      <li class="services__item">
+        <div class="slider__inside slider__inside-services">
+          <img src="./images/services1.png" alt="">
+          <div class="services-slider-inside">
+            <h2>Покраска</h2>
+            <p>Индивидуальный подход к созданию идеального выкрашенного материал. (Подготовка , грунтовка и
+              окрашивание в несколько слоев)</p>
+            <a href="/">Узнать больше
+              <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M17.7383 10.6222L13.8431 14.5173L13.221 15.1124L12.0038 13.8952L12.5989 13.273L15.0333 10.8656H1.66669V9.13447H15.0333L12.5989 6.72706L12.0038 6.10492L13.221 4.8877L13.8431 5.48278L17.7383 9.37792L18.3334 10.0001L17.7383 10.6222Z"
+                  fill="#30B45B" />
+              </svg>
+            </a>
+          </div>
+        </div>
+      </li>
+
+      <li class="services__item">
+        <div class="slider__inside slider__inside-services">
+          <img src="./images/services1.png" alt="">
+          <div class="services-slider-inside">
+            <h2>Антисептирование</h2>
+            <p>Обработка материала посредством погружения материала в био или огнебиозащитный состав. </p>
+            <a href="/">Узнать больше
+              <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M17.7383 10.6222L13.8431 14.5173L13.221 15.1124L12.0038 13.8952L12.5989 13.273L15.0333 10.8656H1.66669V9.13447H15.0333L12.5989 6.72706L12.0038 6.10492L13.221 4.8877L13.8431 5.48278L17.7383 9.37792L18.3334 10.0001L17.7383 10.6222Z"
+                  fill="#30B45B" />
+              </svg>
+            </a>
+          </div>
+        </div>
+      </li>
+
+      <li class="services__item">
+        <div class="slider__inside slider__inside-services">
+          <img src="./images/services1.png" alt="">
+          <div class="services-slider-inside">
+            <h2>Распил и обработка материала</h2>
+            <p>Даёт возможность создать индивидуальные размеры с качественной торцовкой материала при роспуске, а так
+              же создание индивидуальных размеров для каждого покупателя</p>
+            <a href="/">Узнать больше
+              <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M17.7383 10.6222L13.8431 14.5173L13.221 15.1124L12.0038 13.8952L12.5989 13.273L15.0333 10.8656H1.66669V9.13447H15.0333L12.5989 6.72706L12.0038 6.10492L13.221 4.8877L13.8431 5.48278L17.7383 9.37792L18.3334 10.0001L17.7383 10.6222Z"
+                  fill="#30B45B" />
+              </svg>
+            </a>
+          </div>
+        </div>
+      </li>
+
+      <li class="services__item">
+        <div class="slider__inside slider__inside-services">
+          <img src="./images/services1.png" alt="">
+          <div class="services-slider-inside">
+            <h2>Склеивание бруса</h2>
+            <p>Для создания самых прочных конструкций.</p>
+            <a href="/">Узнать больше
+              <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M17.7383 10.6222L13.8431 14.5173L13.221 15.1124L12.0038 13.8952L12.5989 13.273L15.0333 10.8656H1.66669V9.13447H15.0333L12.5989 6.72706L12.0038 6.10492L13.221 4.8877L13.8431 5.48278L17.7383 9.37792L18.3334 10.0001L17.7383 10.6222Z"
+                  fill="#30B45B" />
+              </svg>
+            </a>
+          </div>
+        </div>
+      </li>
+
+      <li class="services__item">
+        <div class="slider__inside slider__inside-services">
+          <img src="./images/services1.png" alt="">
+          <div class="services-slider-inside">
+            <h2>Создание индивидуального профиля</h2>
+            <p>Обработка материала посредством погружения материала в био или огнебиозащитный состав.</p>
+            <a href="/">Узнать больше
+              <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M17.7383 10.6222L13.8431 14.5173L13.221 15.1124L12.0038 13.8952L12.5989 13.273L15.0333 10.8656H1.66669V9.13447H15.0333L12.5989 6.72706L12.0038 6.10492L13.221 4.8877L13.8431 5.48278L17.7383 9.37792L18.3334 10.0001L17.7383 10.6222Z"
+                  fill="#30B45B" />
+              </svg>
+            </a>
+          </div>
+        </div>
+      </li>
+    </ul>
+  </main>
+
+  <footer class="footer">
+    <ul class="footer__cards">
+      <li>
+        <img src="./images/logo-footer.svg" alt="Логотип" class="footer__logo" loading="lazy">
+      </li>
+
+      <li>
+        <details open>
+          <summary>Каталог
+            <svg class="control-icon control-icon-expand" width="24" height="24" role="presentation">
+              <use href="sprite.svg#footer-more" x="0" y="0"></use>
+            </svg>
+            <svg class="control-icon control-icon-close" width="24" height="24" role="presentation"
+              style="transform: rotate(180deg);">
+              <use href="sprite.svg#footer-close" x="0" y="0"></use>
+            </svg>
+          </summary>
+          <a href="" class="footer__cards-link">Пиломатериалы</a>
+          <a href="" class="footer__cards-link">Антисептики</a>
+          <a href="" class="footer__cards-link">Изоляционные материалы</a>
+          <a href="" class="footer__cards-link">Листовые материалы</a>
+          <a href="" class="footer__cards-link">Метизы</a>
+        </details>
+      </li>
+
+      <li>
+        <details open>
+          <summary>Покупателям
+            <svg class="control-icon control-icon-expand" width="24" height="24" role="presentation">
+              <use href="sprite.svg#footer-more" x="0" y="0"></use>
+            </svg>
+            <svg class="control-icon control-icon-close" width="24" height="24" role="presentation"
+              style="transform: rotate(180deg);">
+              <use href="sprite.svg#footer-close" x="0" y="0"></use>
+            </svg>
+          </summary>
+          <a href="" class="footer__cards-link">О компании</a>
+          <a href="" class="footer__cards-link">Доставка и оплата</a>
+          <a href="" class="footer__cards-link">Отзывы</a>
+          <a href="" class="footer__cards-link">Статьи</a>
+          <a href="" class="footer__cards-link">Контакты</a>
+        </details>
+      </li>
+
+      <li>
+        <div class="footer__info">
+          <svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <use href="sprite.svg#footer-number" x="0" y="0"></use>
+          </svg>
+          <div class="footer__info-number">
+            <a href="tel:+74993025501" class="footer__info-phone">+7 (499) 302-55-01</a>
+            <span>Ежедневно с 8:00-19:00</span>
+          </div>
+        </div>
+
+        <div class="footer__info">
+          <svg width="18" height="14" viewBox="0 0 18 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <use href="sprite.svg#footer-email" x="0" y="0"></use>
+          </svg>
+          <a href="mailto:info@stroyassortiment.ru" class="footer__info-link">info@stroyassortiment.ru</a>
+        </div>
+
+        <div class="footer__info">
+          <svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <use href="sprite.svg#footer-location" x="0" y="0"></use>
+          </svg>
+          <p>141008, Московская область, г. Мытищи Осташковское шоссе 14 (офис/склад)</p>
+        </div>
+      </li>
+    </ul>
+
+    <div class="footer-down-container">
+      <div class="footer__down">
+        <p class="footer__down-author">© 2012 - 2024 ООО «СТРОЙАССОРТИМЕНТ». Сайт не является публичной офертой.</p>
+        <ul class="footer__down-cards">
+          <li>
+            <a href="">Политика конфиденциальности</a>
+          </li>
+          <li>
+            <a href="">Карта сайта</a>
+          </li>
+        </ul>
+
+        <a href="" class="footer__down-design">Сделано в
+          <img src="./images/footer-author-design.svg" alt="" loading="lazy">
+        </a>
+      </div>
+    </div>
+
+    <img class="footer__pattern" src="./images/footer-pattern.svg" alt="Паттерн" loading="lazy">
+  </footer>
+
+  <section class="mobile-menu">
+    <div class="mobile-menu-container">
+      <nav class="bottom-nav">
+        <div class="bottom-nav-item active">
+          <a class="bottom-nav-link">
+            <svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <use href="sprite.svg#mobile-menu-home" x="0" y="0"></use>
+            </svg>
+            <span>Главная</span>
+          </a>
+        </div>
+
+        <div class="bottom-nav-item mobile-catalog">
+          <a class="bottom-nav-link">
+            <svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg"
+              class="catalog-mobile">
+              <use href="sprite.svg#mobile-menu-services" x="0" y="0"></use>
+            </svg>
+            <span>Каталог</span>
+          </a>
+        </div>
+
+        <div class="bottom-nav-item">
+          <a href="" class="bottom-nav-link">
+            <svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <use href="sprite.svg#header-cart" x="0" y="0"></use>
+            </svg>
+            <span>Корзина
+              <div class="circle">
+                <p class="number">12</p>
+              </div>
+            </span>
+          </a>
+        </div>
+
+        <div class="bottom-nav-item">
+          <a href="" class="bottom-nav-link">
+            <svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <use href="sprite.svg#header-save" x="0" y="0"></use>
+            </svg>
+            <span>Отложено</span>
+          </a>
+        </div>
+
+        <div class="bottom-nav-item">
+          <a href="" class="bottom-nav-link">
+            <div class="svg">
+              <svg width="22" height="20" viewBox="0 0 22 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <use href="sprite.svg#header-person" x="0" y="0"></use>
+              </svg>
+            </div>
+            <span>Войти</span>
+          </a>
+        </div>
+      </nav>
+    </div>
+  </section>
+
+</body>
+
+<div class="popup popupcontact">
+  <div class="popup__group">
+    <button class="button popup__close" type="button"></button>
+
+    <div class="popup-new-subblock popup-new-subblock--g24">
+      <div class="popup__title">Выберите город</div>
+      <div class="region_popup_container">
+        <ul class="region_popup_list">
+          <li class="region_popup_list_heading">СПб и Ленинградская область</li>
+          <li class="region_popup_list_item"><a href="https://spb.site.com"
+              class="region_popup_list_link">Санкт-Петербург</a></li>
+        </ul>
+        <ul class="region_popup_list">
+          <li class="region_popup_list_heading">Москва и Московская область</li>
+          <li class="region_popup_list_item"><a href="https://msk.site.com" class="region_popup_list_link">Москва</a>
+          </li>
+          <li class="region_popup_list_item"><a href="https://oz.site.com"
+              class="region_popup_list_link">Орехово-Зуево</a></li>
+          <li class="region_popup_list_item"><a href="https://pd.site.com" class="region_popup_list_link">Подольск</a>
+          </li>
+        </ul>
+        <ul class="region_popup_list">
+          <li class="region_popup_list_heading">Алтайский край</li>
+          <li class="region_popup_list_item"><a href="https://bar.site.com" class="region_popup_list_link">Барнаул</a>
+          </li>
+        </ul>
+        <ul class="region_popup_list">
+          <li class="region_popup_list_heading">Волгоградская область</li>
+          <li class="region_popup_list_item"><a href="https://vlg.site.com" class="region_popup_list_link">Волгоград</a>
+          </li>
+          <li class="region_popup_list_item"><a href="https://vlz.site.com" class="region_popup_list_link">Волжский</a>
+          </li>
+        </ul>
+        <ul class="region_popup_list">
+          <li class="region_popup_list_heading">Республика Башкортостан</li>
+          <li class="region_popup_list_item"><a href="https://nft.site.com"
+              class="region_popup_list_link">Нефтекамск</a>
+          </li>
+          <li class="region_popup_list_item"><a href="https://str.site.com"
+              class="region_popup_list_link">Стерлитамак</a>
+          </li>
+          <li class="region_popup_list_item"><a href="https://ufa.site.com" class="region_popup_list_link">Уфа</a>
+          </li>
+        </ul>
+        <ul class="region_popup_list">
+          <li class="region_popup_list_heading">Краснодарский край</li>
+          <li class="region_popup_list_item"><a href="https://krd.site.com" class="region_popup_list_link">Краснодар</a>
+          </li>
+          <li class="region_popup_list_item"><a href="https://sochi.site.com" class="region_popup_list_link">Сочи</a>
+          </li>
+        </ul>
+        <ul class="region_popup_list">
+          <li class="region_popup_list_heading">Красноярский край</li>
+          <li class="region_popup_list_item"><a href="https://kras.site.com"
+              class="region_popup_list_link">Красноярск</a>
+          </li>
+        </ul>
+        <ul class="region_popup_list">
+          <li class="region_popup_list_heading">Нижегородская область</li>
+          <li class="region_popup_list_item"><a href="https://nnv.site.com" class="region_popup_list_link">Нижний
+              Новгород</a></li>
+        </ul>
+        <ul class="region_popup_list">
+          <li class="region_popup_list_heading">Новосибирская область</li>
+          <li class="region_popup_list_item"><a href="https://nsk.site.com"
+              class="region_popup_list_link">Новосибирск</a>
+          </li>
+        </ul>
+        <ul class="region_popup_list">
+          <li class="region_popup_list_heading">Оренбургская область</li>
+          <li class="region_popup_list_item"><a href="https://ore.site.com" class="region_popup_list_link">Оренбург</a>
+          </li>
+        </ul>
+        <ul class="region_popup_list">
+          <li class="region_popup_list_heading">Самарская область</li>
+          <li class="region_popup_list_item"><a href="https://sam.site.com" class="region_popup_list_link">Самара</a>
+          </li>
+          <li class="region_popup_list_item"><a href="https://tlt.site.com" class="region_popup_list_link">Тольятти</a>
+          </li>
+        </ul>
+        <ul class="region_popup_list">
+          <li class="region_popup_list_heading">Свердловская область</li>
+          <li class="region_popup_list_item"><a href="https://ekb.site.com"
+              class="region_popup_list_link">Екатеринбург</a></li>
+        </ul>
+        <ul class="region_popup_list">
+          <li class="region_popup_list_heading">Республика Татарстан</li>
+          <li class="region_popup_list_item"><a href="https://kaz.site.com" class="region_popup_list_link">Казань</a>
+          </li>
+        </ul>
+        <ul class="region_popup_list">
+          <li class="region_popup_list_heading">Томская область</li>
+          <li class="region_popup_list_item"><a href="https://tomsk.site.com" class="region_popup_list_link">Томск</a>
+          </li>
+        </ul>
+        <ul class="region_popup_list">
+          <li class="region_popup_list_heading">Челябинская область</li>
+          <li class="region_popup_list_item"><a href="https://mag.site.com"
+              class="region_popup_list_link">Магнитогорск</a></li>
+          <li class="region_popup_list_item"><a href="https://chel.site.com"
+              class="region_popup_list_link">Челябинск</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<script src="./scripts/index.js"></script>
+<script src="./vendor/swiper-bundle-11.0.7.min.js"></script>
+
+<script>
+  var swiper = new Swiper(".mySwiper-megamenu", {
+    slidesPerView: 1,
+    loop: true,
+    pagination: {
+      el: ".swiper-pagination",
+      clickable: true,
+    },
+  });
+</script>
+
+</html>

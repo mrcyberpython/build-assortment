@@ -1,0 +1,35 @@
+@font-face {
+    font-family: 'Matahari';
+    src: url('Matahari-400Regular.woff2') format('woff2'),
+        url('Matahari-400Regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Matahari';
+    src: url('Matahari-600SemiBold.woff2') format('woff2'),
+        url('Matahari-600SemiBold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Matahari';
+    src: url('Matahari-700Bold.woff2') format('woff2'),
+        url('Matahari-700Bold.woff') format('woff');
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Matahari';
+    src: url('Matahari-800ExtraBold.woff2') format('woff2'),
+        url('Matahari-800ExtraBold.woff') format('woff');
+    font-weight: 800;
+    font-style: normal;
+    font-display: swap;
+}
